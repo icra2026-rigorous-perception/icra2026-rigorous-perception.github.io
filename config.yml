@@ -1,4 +1,4 @@
-baseurl: "https://icra2026-rig-perception.github.io/"
+baseurl: "https://icra2026-rigorous-perception.github.io/"
 title: "RIGOROUS Perception"
 canonifyurls: true
 theme: "hugo-conference"
