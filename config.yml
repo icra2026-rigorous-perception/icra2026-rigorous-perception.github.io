@@ -76,7 +76,7 @@ params:
 
     - name: "Xiaolong Wang"
       photo: "/img/wang.jpg"
-      bio: "He is an associate professor at UC San Diego. His research focuses on learning 3D and dynamics representations through video and physical robotic interaction data. In his research group, he explores various means of using supervision signals from data, language, and common-sense knowledge to facilitate learning generalizable robot skills for the real world."
+      bio: "He is an Assistant Professor in the ECE department at the University of California, San Diego, and a Visiting Professor at NVIDIA Research. His research focuses on the intersection between computer vision and robotics. His specific interest lies in representation learning with videos and physical robotic interaction data. These comprehensive representations are utilized to facilitate the learning of human-like robot skills, with the goal of generalizing the robot to interact effectively with a wide range of objects and environments in the real physical world."
       company: "UC San Diego"
       link:
         href: ""
