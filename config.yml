@@ -1,0 +1,228 @@
+baseurl: "https://icra2026-rig-perception.github.io/"
+title: "RIGOROUS Perception"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Workshop Proposal on Open Challenges for Rigorous Robot Perception"
+  ShortName: "RIGOROUS Robot Perception @ ICRA'26"
+  Description: ""
+  # Description: "Have we Solved the Perception Problem for Robots?"
+  Date: "June 1st 2026"
+  Location: "Vienna Congress and Convention Center"
+  Venue: ""
+  Address: ""
+  City:  "Vienna"
+  State: "Austria"
+  Images: ["/img/badge.png"]
+  # GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - speakers
+    - schedule
+    # - papers
+    - submission
+    - dates
+    - organizers
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "Overview"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    # papers: "Access Papers"
+    submission: "Call for Papers"
+    dates: "Important Dates"
+    organizers: "Organizers"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+  #   text: "Register now!"
+  #   link: "http://register.example.com"
+
+  # List of Sponsors
+  Speakers:
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
+
+  # The entire schedule
+  Schedule:
+    - name: "Opening Remarks by the Workshop Organizers"
+      time: "8:50"
+
+    - name: "Perception in Navigation"
+      headline: "Topic 1"
+      time: "9:00"
+
+    - name: "Margarita Chli"
+      photo: "/img/chli.jpg"
+      bio: "She is an Assistant Professor at the University of Cyprus and ETH Zürich, where she also leads the Vision for Robotics Lab (V4RL). She is a recognized expert in computer vision and robotics, known for her contributions to developing the first fully autonomous helicopter with onboard localization and mapping."
+      company: "ETH Zurich and University of Cyprus"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in Modular Approaches for Navigation)"
+        description: "TODO Talk Description"
+        time: "9:00"
+
+    - name: "Xiaolong Wang"
+      photo: "/img/wang.jpg"
+      bio: "He is an associate professor at UC San Diego. His research focuses on learning 3D and dynamics representations through video and physical robotic interaction data. In his research group, he explores various means of using supervision signals from data, language, and common-sense knowledge to facilitate learning generalizable robot skills for the real world."
+      company: "UC San Diego"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in End-to-end Learning Approaches for Navigation)"
+        description: "TODO Talk Description"
+        time: "9:30"
+
+    - name: "Spotlight Talks"
+      time: "10:00"
+
+    - name: "Coffee Break and Poster Session"
+      time: "10:15"
+
+    - name: "Kostas Alexis"
+      photo: "/img/alexis.jpg"
+      bio: "He is a Full Professor at the Department of Engineering Cybernetics of the Norwegian University of Science and Technology (NTNU) at Trondheim, Norway. His research goal is to contribute towards establishing true navigational and operational autonomy for robotics."
+      company: "Norwegian University of Science and Technology"
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in Application-Oriented Approaches for Navigation)"
+        description: "TODO Talk Description"
+        time: "11:00"
+
+    - name: "Roundtable Discussion"
+      time: "11:30"
+
+    - name: "Lunch"
+      time: "12:00"
+
+    - name: "Perception in Manipulation"
+      headline: "Topic 2"
+      time: "13:00"
+
+    - name: "Yu Xiang"
+      photo: "/img/xiang.jpg"
+      bio: 'He is an Assistant Professor in the Department of Computer Science at the University of Texas at Dallas. His research lies at the intersection of robotics and computer vision, with a focus on enabling intelligent systems to perceive, understand, and act in complex 3D environments.'
+      company: "University of Texas"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in Modular Approaches for Manipulation)"
+        description: "TODO Talk Description"
+        time: "13:00"
+
+    - name: "Georgia Chalvatzaki"
+      photo: "/img/chalvatzaki.jpg"
+      bio: "She is a Full Professor at TU Darmstadt, where she leads the Intelligent Robotic Systems for Assistance (iROSA) group. Her research focuses on robot learning for mobile manipulation in assistive robotics, advancing embodied AI through methods at the intersection of machine learning and classical robotics."
+      company: "TU Darmstadt"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in End-to-end Learning Approaches for Manipulation)"
+        description: "TODO Talk Description"
+        time: "13:30"
+
+    - name: "Spotlight Talks"
+      time: "14:00"
+
+    - name: "Coffee Break and Poster Session"
+      time: "14:15"
+
+    - name: "Alberto Rodriguez"
+      photo: "/img/rodriguez.jpg"
+      bio: "He is the Director of Robot Behavior for Atlas at Boston Dynamics with prior roles being Associate Professor in the Department of Mechanical Engineering at MIT, leading the MCube lab. His research focuses on robotic manipulation, emphasizing contact mechanics, tactile sensing, and data-driven control methods. His work integrates modeling, planning, and learning to advance manipulation skills in both academic and industrial robotics."
+      company: "Boston Dynamics"
+      presentation:
+        title: "TBD (requested: Robustness and Interpretability in Application-Oriented Approaches for Manipulation)"
+        description: ""
+        time: "15:00"
+
+    - name: "Roundtable Discussion"
+      time: "15:30"
+
+    - name: "Closing Remarks"
+      time: "16:00"
+
+  Organizers:
+    - name: "Jens Behley"
+      photo: "/img/behley.jpg"
+      university: "University of Bonn"
+      url: "https://www.ipb.uni-bonn.de/people/jens-behley/"
+      email: "jens.behley@igg.uni-bonn.de"
+      type: "co"
+
+    - name: "Maximilian Durner"
+      photo: "/img/durner.jpg"
+      university: "German Aerospace Center (DLR)"
+      url: ""
+      email: "maximilian.durner@dlr.de"
+      type: "co"
+
+    - name: "Raphael Hagmanns"
+      photo: "/img/hagmanns.jpg"
+      university: "Fraunhofer IOSB"
+      url: "https://raphaelhagmanns.gitlab.io/"
+      email: "hagmanns@kit.edu"
+      type: "co"
+
+    - name: "Ayoung Kim"
+      photo: "/img/kim.jpg"
+      university: "Seoul National University"
+      url: "https://ayoungk.github.io/"
+      email: ""
+      type: "co"
+
+    - name: "Dimity Miller"
+      photo: "/img/miller.jpg"
+      university: "QUT Centre for Robotics"
+      url: "https://research.qut.edu.au/qcr/people/dimity-miller/"
+      email: "d24.miller@qut.edu.au"
+      type: "co"
+
+    - name: "Joerg Stückler"
+      photo: "/img/stueckler.jpg"
+      university: "University of Augsburg"
+      url: "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/ips/"
+      email: "joerg.stueckler@uni-a.de"
+      type: "co"
+
+    - name: "Rudolph Triebel"
+      photo: "/img/triebel.jpg"
+      university: "German Aerospace Center (DLR), Karlsruhe Institute of Technology (KIT)"
+      url: "https://www.dlr.de/en/blog/authors/rudolph-triebel"
+      email: "rudolph.triebel@dlr.de"
+      type: "co"
+
+
+    - name: "Wenzhen Yuan"
+      photo: "/img/yuan.jpg"
+      university: "University of Illinois"
+      url: "https://siebelschool.illinois.edu/about/people/department-faculty/yuanwz"
+      email: "yuanwz@illinois.edu"
+      type: "co"
+
+
+  Submission:
+    topics:
+      - name: "Robust perception for navigation in unstructured and dynamic environments"
+      - name: "Robust perception for manipulation in unstructured and everyday environments"
+      - name: "Perception in end-to-end learning architectures for robotic navigation and manipulation"
+      - name: "Interpretability and robustness of perception in end-to-end learning robot systems"
+      - name: "Uncertainty quantification for robot perception methods"
+      - name: "Introspection and interpretability of perception methods in robot systems"
+      - name: "Tactile or visuo-tactile perception for robust contact-rich manipulation in unstructured environments"
+      - name: "Lessons learned from robot perception in integrated robot systems, incl. informative failure cases"
+      - name: "Datasets and benchmarks for robustness and interpretability of perception in real-world robot systems"
