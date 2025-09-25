@@ -114,7 +114,7 @@ params:
     - name: "Yu Xiang"
       photo: "/img/xiang.jpg"
       bio: 'He is an Assistant Professor in the Department of Computer Science at the University of Texas at Dallas. His research lies at the intersection of robotics and computer vision, with a focus on enabling intelligent systems to perceive, understand, and act in complex 3D environments.'
-      company: "University of Texas"
+      company: "University of Texas at Dallas"
       link:
         href: ""
         text: ""
