@@ -192,7 +192,7 @@ params:
       email: "d24.miller@qut.edu.au"
       type: "co"
 
-    - name: "Joerg Stückler"
+    - name: "Joerg Stueckler"
       photo: "/img/stueckler.jpg"
       university: "University of Augsburg"
       url: "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/ips/"
