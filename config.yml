@@ -7,7 +7,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Workshop Proposal on Open Challenges for Rigorous Robot Perception"
+  Name: "Workshop on Open Challenges for Rigorous Robot Perception"
   ShortName: "RIGOROUS Robot Perception @ ICRA'26"
   Description: ""
   # Description: "Have we Solved the Perception Problem for Robots?"
