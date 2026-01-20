@@ -125,7 +125,7 @@ params:
 
     - name: "Georgia Chalvatzaki"
       photo: "/img/chalvatzaki.jpg"
-      bio: "She is a Full Professor at TU Darmstadt, where she leads the Intelligent Robotic Systems for Assistance (iROSA) group. Her research focuses on robot learning for mobile manipulation in assistive robotics, advancing embodied AI through methods at the intersection of machine learning and classical robotics."
+      bio: "She is a Full Professor for Interactive Robot Perception & Learning at the Computer Science Department of the Technical University of Darmstadt and Hessian.AI. Her research focuses on robot learning for mobile manipulation in assistive robotics, advancing embodied AI through methods at the intersection of machine learning and classical robotics."
       company: "TU Darmstadt"
       link:
         href: ""
