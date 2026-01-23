@@ -64,7 +64,7 @@ params:
 
     - name: "Margarita Chli"
       photo: "/img/chli.jpg"
-      bio: "She is an Assistant Professor at the University of Cyprus and ETH Zürich, where she also leads the Vision for Robotics Lab (V4RL). She is a recognized expert in computer vision and robotics, known for her contributions to developing the first fully autonomous helicopter with onboard localization and mapping."
+      bio: "She is a Professor of Robotic Vision and Director of the Vision for Robotics Lab at the University of Cyprus, and a Visiting Professor at ETH Zurich. Her research has pioneered vision-based autonomous flight and collaborative monocular SLAM for drone swarms. She is the recipient of an ERC Consolidator Grant and has delivered invited keynote talks at venues including the World Economic Forum in Davos, TEDx, and ICRA."
       company: "ETH Zurich and University of Cyprus"
       link:
         href: ""
