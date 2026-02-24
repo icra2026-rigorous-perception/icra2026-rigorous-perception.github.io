@@ -37,7 +37,7 @@ params:
     speakers: "Speakers"
     schedule: "Schedule"
     # papers: "Access Papers"
-    submission: "Call for Papers"
+    submission: "Call for Extended Abstracts "
     dates: "Important Dates"
     organizers: "Organizers"
 
