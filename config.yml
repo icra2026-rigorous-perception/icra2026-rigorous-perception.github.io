@@ -141,7 +141,7 @@ params:
     - name: "Coffee Break and Poster Session"
       time: "14:15"
 
-    - name: "Alberto Rodriguez"
+    - name: "Alberto Rodriguez (tentative)"
       photo: "/img/rodriguez.jpg"
       bio: "He is the Director of Robot Behavior for Atlas at Boston Dynamics with prior roles being Associate Professor in the Department of Mechanical Engineering at MIT, leading the MCube lab. His research focuses on robotic manipulation, emphasizing contact mechanics, tactile sensing, and data-driven control methods. His work integrates modeling, planning, and learning to advance manipulation skills in both academic and industrial robotics."
       company: "Boston Dynamics"
