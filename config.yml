@@ -104,7 +104,7 @@ params:
     - name: "Roundtable Discussion"
       time: "11:30"
 
-    - name: "Lunch"
+    - name: "Lunch Break"
       time: "12:00"
 
     - name: "Perception in Manipulation"
@@ -138,7 +138,7 @@ params:
     - name: "Spotlight Talks"
       time: "14:00"
 
-    - name: "Coffee Break and Poster Session"
+    - name: "Poster Session"
       time: "14:15"
 
     - name: "Alberto Rodriguez (tentative)"
