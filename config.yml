@@ -109,7 +109,7 @@ params:
 
     - name: "Perception in Manipulation"
       headline: "Topic 2"
-      time: "13:00"
+      time: "14:00"
 
     - name: "Yu Xiang"
       photo: "/img/xiang.jpg"
@@ -121,7 +121,7 @@ params:
       presentation:
         title: ""
         description: "TODO Talk Description"
-        time: "13:00"
+        time: "14:00"
 
     - name: "Georgia Chalvatzaki"
       photo: "/img/chalvatzaki.jpg"
@@ -133,13 +133,13 @@ params:
       presentation:
         title: ""
         description: "TODO Talk Description"
-        time: "13:30"
+        time: "14:30"
 
     - name: "Spotlight Talks"
-      time: "14:00"
+      time: "15:00"
 
     - name: "Poster Session"
-      time: "14:15"
+      time: "15:15"
 
     - name: "Tentative Speaker"
       photo: "/img/tbd.jpg"
@@ -148,13 +148,13 @@ params:
       presentation:
         title: ""
         description: ""
-        time: "15:00"
+        time: "16:00"
 
     - name: "Roundtable Discussion"
-      time: "15:30"
+      time: "16:30"
 
     - name: "Closing Remarks"
-      time: "16:00"
+      time: "17:00"
 
   Organizers:
     - name: "Jens Behley"
