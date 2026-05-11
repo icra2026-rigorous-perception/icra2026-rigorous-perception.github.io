@@ -1,13 +1,28 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
 <p>This is a preliminary version of the schedule and may be subject to change.</p>
+{{ $.Scratch.Set "hasPresentationTitles" false }}
+{{ range .schedule }}
+  {{ if and (ne .presentation nil) .presentation.title }}
+    {{ $.Scratch.Set "hasPresentationTitles" true }}
+  {{ end }}
+{{ end }}
 <div class="schedule-tbl">
   <table>
+    <colgroup>
+      <col style="width: 14%;">
+      <col style="width: 86%;">
+      {{ if $.Scratch.Get "hasPresentationTitles" }}
+      <col style="width: 30%;">
+      {{ end }}
+    </colgroup>
     <thead>
       <tr>
         <th class="schedule-time">Time</th>
         <th class="schedule-slot">Description</th>
+        {{ if $.Scratch.Get "hasPresentationTitles" }}
         <th class="schedule-description"></th>
+        {{ end }}
       </tr>
     </thead>
     <tbody>
@@ -37,26 +52,27 @@
               {{ end }}
               </td>
             {{ else }}
-              {{ if ne .presentation.video_url nil }}
+              {{ if $.Scratch.Get "hasPresentationTitles" }}
+                {{ if ne .presentation.video_url nil }}
                 <td class="schedule-description" style="text-align: center;"> {{ .presentation.title }}
                   <br/>
                   <a style="display: block; margin: 0 auto;" href="{{ .presentation.video_url }}">
                   <img class="video-download-icon" src="/img/video-solid.svg" alt="Link to Presentation Recording on YouTube"/></a></td>
-                  {{ else }}
+                {{ else }}
                 <td class="schedule-description">{{ .presentation.title }}</td>
+                {{ end }}
               {{ end }}
             {{ end }}
           </tr>
         {{ else if ne .headline nil}}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
-            <td colspan="2" class="schedule-headline">{{ .headline }}: {{ .name }}</td>
+            <td {{ if $.Scratch.Get "hasPresentationTitles" }}colspan="2"{{ end }} class="schedule-headline">{{ .headline }}: {{ .name }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
-            <td colspan="2" class="schedule-slot">{{ .name }}</td>
-            <!-- <td class="schedule-description">-</td> -->
+            <td {{ if $.Scratch.Get "hasPresentationTitles" }}colspan="2"{{ end }} class="schedule-slot">{{ .name }}</td>
           </tr>
         {{ end }}
       {{ end }}

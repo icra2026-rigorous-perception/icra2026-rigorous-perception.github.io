@@ -70,7 +70,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in Modular Approaches for Navigation)"
+        title: ""
         description: "TODO Talk Description"
         time: "9:00"
 
@@ -82,7 +82,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in End-to-end Learning Approaches for Navigation)"
+        title: ""
         description: "TODO Talk Description"
         time: "9:30"
 
@@ -97,7 +97,7 @@ params:
       bio: "He is a Full Professor at the Department of Engineering Cybernetics of the Norwegian University of Science and Technology (NTNU) at Trondheim, Norway. His research goal is to contribute towards establishing true navigational and operational autonomy for robotics."
       company: "Norwegian University of Science and Technology"
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in Application-Oriented Approaches for Navigation)"
+        title: ""
         description: "TODO Talk Description"
         time: "11:00"
 
@@ -119,7 +119,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in Modular Approaches for Manipulation)"
+        title: ""
         description: "TODO Talk Description"
         time: "13:00"
 
@@ -131,7 +131,7 @@ params:
         href: ""
         text: ""
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in End-to-end Learning Approaches for Manipulation)"
+        title: ""
         description: "TODO Talk Description"
         time: "13:30"
 
@@ -141,12 +141,12 @@ params:
     - name: "Poster Session"
       time: "14:15"
 
-    - name: "Alberto Rodriguez (tentative)"
-      photo: "/img/rodriguez.jpg"
-      bio: "He is the Director of Robot Behavior for Atlas at Boston Dynamics with prior roles being Associate Professor in the Department of Mechanical Engineering at MIT, leading the MCube lab. His research focuses on robotic manipulation, emphasizing contact mechanics, tactile sensing, and data-driven control methods. His work integrates modeling, planning, and learning to advance manipulation skills in both academic and industrial robotics."
-      company: "Boston Dynamics"
+    - name: "Tentative Speaker"
+      photo: "/img/tbd.jpg"
+      bio: "Speaker to be announced."
+      company: ""
       presentation:
-        title: "TBD (requested: Robustness and Interpretability in Application-Oriented Approaches for Manipulation)"
+        title: ""
         description: ""
         time: "15:00"
 

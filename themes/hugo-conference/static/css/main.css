@@ -518,6 +518,7 @@ font-size: 1.4em;
 .schedule-tbl table {
   border-collapse: collapse;
   font-size: 1em;
+  width: 100%;
 }
 .schedule-tbl td,
 .schedule-tbl th {
@@ -556,7 +557,6 @@ font-size: 1.4em;
 }
 
 .schedule-slot {
-  width: 250px;
   font-size: 16px;
 }
 .speakers-company {
@@ -670,14 +670,13 @@ font-size: 1.4em;
     margin-right: 5px;
   }
   .schedule-tbl .schedule-slot {
-    width: 120px;
+    width: auto;
   }
   .schedule-tbl td.schedule-slot {
     font-size: 14px;
     line-height: 1.2em;
   }
   .schedule-tbl .schedule-time {
-    /* width: 60px; */
     padding: 10px 0 10px 5px;
     text-align: left;
   }
