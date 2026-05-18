@@ -26,8 +26,7 @@ params:
     - about
     - speakers
     - schedule
-    # - papers
-    - submission
+    - papers
     - dates
     - organizers
 
@@ -36,8 +35,8 @@ params:
     about: "Overview"
     speakers: "Speakers"
     schedule: "Schedule"
-    # papers: "Access Papers"
-    submission: "Call for Extended Abstracts "
+    papers: "Accepted Papers"
+    submission: "Call for Extended Abstracts"
     dates: "Important Dates"
     organizers: "Organizers"
 
@@ -87,10 +86,88 @@ params:
         time: "9:30"
 
     - name: "Spotlight Talks"
-      time: "10:00"
+      presentation:
+        title: ""
+        time: "10:00"
+      spotlight:
+        titles:
+          - title: "Perception Debt: Monitoring Safety-Margin Consumption in Embodied Autonomy"
+            authors: "Stavan Dholakia, Abhishek Singh, Aditya Gazta, Shivani Shukla"
+            presenter: ""
+            url: ""
+            video:
+          - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
+            authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
+            presenter: ""
+            url: ""
+            video:
+          - title: "COIN-BIEVR: 3D Intensity Mapping for Robust LiDAR-Inertial Odometry"
+            authors: "Patrick Pfreundschuh, Cedric Le Gentil, Roland Siegwart, Cesar Cadena"
+            presenter: ""
+            url: ""
+            video:
 
     - name: "Coffee Break and Poster Session"
-      time: "10:15"
+      presentation:
+        title: ""
+        time: "10:15"
+      spotlight:
+        titles:
+          - title: "Perception Debt: Monitoring Safety-Margin Consumption in Embodied Autonomy"
+            authors: "Stavan Dholakia, Abhishek Singh, Aditya Gazta, Shivani Shukla"
+            presenter: ""
+            url: ""
+            video:
+          - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
+            authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
+            presenter: ""
+            url: ""
+            video:
+          - title: "COIN-BIEVR: 3D Intensity Mapping for Robust LiDAR-Inertial Odometry"
+            authors: "Patrick Pfreundschuh, Cedric Le Gentil, Roland Siegwart, Cesar Cadena"
+            presenter: ""
+            url: ""
+            video:
+          - title: "In-context adaptation of place recognition through self-supervised learning from video"
+            authors: "Kiavash Jamshidi, Hermann Blum, Gülhan Şikaroğlu"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Language-Based Swarm Perception: Decentralized Person Re-Identification via Natural Language Descriptions"
+            authors: "Miquel Kegeleirs, Lorenzo Garattoni, Gianpiero Francesca, Mauro Birattari"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Extended Abstract: Adaptive LiDAR Inertial Odometry with an Ellipsoid Representation (EllipseLIO)"
+            authors: "Rowan Border, Margarita Chli"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Cross-Modal Benchmarking for Robotic Perception in Natural Environments"
+            authors: "David Hall, Joshua Knights, Mark Cox, Peyman Moghadam"
+            presenter: ""
+            url: ""
+            video:
+          - title: "SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry"
+            authors: "Johannes A. Gaus, Daniel Haeufle, Woo-Jeong Baek"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Visual Layer Selection Matters for Egocentric VLM Perception"
+            authors: "Ruchen Liu, Yi Yang, Yiming Xu, Monika Sester, Bodo Rosenhahn"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Lensless Aerial Navigation in Dark"
+            authors: "Deepak Singh, Hudson Kortus, Jahnavi Prudhivi, Vivek Reddy Kasireddy, Nitin J. Sanket"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Spatially Stratified Distillation for Heterogeneous Radar Place Recognition"
+            authors: "Sagun Man Singh Shrestha, Abdelwahed Khamis, Saimunur Rahman, Peyman Moghadam"
+            presenter: ""
+            url: ""
+            video:
 
     - name: "Kostas Alexis"
       photo: "/img/alexis.jpg"
@@ -120,7 +197,7 @@ params:
         text: ""
       presentation:
         title: ""
-        description: "TODO Talk Description"
+        description: "From Modular Robotics Pipelines to Vision-Language-Action Systems: Lessons from Real-World Manipulation"
         time: "14:00"
 
     - name: "Georgia Chalvatzaki"
@@ -132,14 +209,97 @@ params:
         text: ""
       presentation:
         title: ""
-        description: "TODO Talk Description"
+        description: "Structured Robot Learning for Rigorous Manipulation: From Perception to Action"
         time: "14:30"
 
     - name: "Spotlight Talks"
-      time: "15:00"
+      presentation:
+        title: ""
+        time: "15:00"
+      spotlight:
+        titles:
+          - title: "GroundedPlanBench: Spatially Grounded Long-Horizon Task Planning"
+            authors: "Sehun Jung, Hyunjee Song, Dong-Hee Kim, Reuben Tan, Jianfeng Gao, Yong Jae Lee, Donghyun Kim"
+            presenter: ""
+            url: ""
+            video:
+          - title: "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks"
+            authors: "Davide Buoso, Andrea Protopapa, Stefano Di Carlo, Francesca Pistilli, Giuseppe Averta"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Input-Aware Routing of Image-to-3D Models for Robotic Manipulation"
+            authors: "Akash Anand, Aditya Agarwal, Leslie Pack Kaelbling"
+            presenter: ""
+            url: ""
+            video:
 
     - name: "Poster Session"
-      time: "15:15"
+      presentation:
+        title: ""
+        time: "15:15"
+      spotlight:
+        titles:
+          - title: "GroundedPlanBench: Spatially Grounded Long-Horizon Task Planning"
+            authors: "Sehun Jung, Hyunjee Song, Dong-Hee Kim, Reuben Tan, Jianfeng Gao, Yong Jae Lee, Donghyun Kim"
+            presenter: ""
+            url: ""
+            video:
+          - title: "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks"
+            authors: "Davide Buoso, Andrea Protopapa, Stefano Di Carlo, Francesca Pistilli, Giuseppe Averta"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Input-Aware Routing of Image-to-3D Models for Robotic Manipulation"
+            authors: "Akash Anand, Aditya Agarwal, Leslie Pack Kaelbling"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Robust Pose Estimation through Failure Explanation and Mitigation"
+            authors: "Loris Schneider, Yitian Shi, Rosa Wolf, Carolin Brenner, Rudolph Triebel, Rania Rayyes"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Core-Agnostic Compliance Perception for Rigid–Deformable Coupled Objects using Vision-Based Tactile Sensing"
+            authors: "CanZhao, Yanghui Ding, Haonan Zhao, Yebao Hu, Daolin Ma"
+            presenter: ""
+            url: ""
+            video:
+          - title: "U-VINDO: Underwater Visual-Inertial Odometry Enhanced with Robot Dynamics Predictions Powered by Port-Hamiltonian Neural ODE Networks"
+            authors: "Yazan Maalla, Sergey Kolyubin, Zein Alabedeen Barhoum"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Training-Free 6D Robot Pose Estimation with Neural Memory Objects"
+            authors: "Sebastian Jung, Leonard Klüpfel, Tjark Darius, Rudolph Triebel, Maximilian Durner"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Task-Relevant Depth Quality Metrics for Suction Grasping"
+            authors: "Shivansh Inamdar"
+            presenter: ""
+            url: ""
+            video:
+          - title: "Compositional Neural Field Movement Primitives"
+            authors: "Ahmet Ercan Tekden, Yasemin Bekiroglu"
+            presenter: ""
+            url: ""
+            video:
+          - title: "OSMa-Bench++: Toward Open-Ended Benchmarking of Semantic Mapping for Manipulation with Prompt-Generated Synthetic Scenes"
+            authors: "Regina Kurkova, Maxim Popov, Sergey Kolyubin"
+            presenter: ""
+            url: ""
+            video:
+          - title: "IFG: Internet-Scale Guidance for Functional Grasping Generation"
+            authors: "Muxin Liu, Mingxuan Li, Kenneth Shaw, Deepak Pathak"
+            presenter: ""
+            url: ""
+            video:
+          - title: "EVII: Measuring Early Visual Integration in VLM Reasoning"
+            authors: "Hakan Muluk, Ozgur S. Oguz"
+            presenter: ""
+            url: ""
+            video:
 
     - name: "Tentative Speaker"
       photo: "/img/tbd.jpg"

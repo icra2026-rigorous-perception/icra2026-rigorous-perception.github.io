@@ -1,28 +1,17 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
 <p>This is a preliminary version of the schedule and may be subject to change.</p>
-{{ $.Scratch.Set "hasPresentationTitles" false }}
-{{ range .schedule }}
-  {{ if and (ne .presentation nil) .presentation.title }}
-    {{ $.Scratch.Set "hasPresentationTitles" true }}
-  {{ end }}
-{{ end }}
 <div class="schedule-tbl">
   <table>
     <colgroup>
-      <col style="width: 14%;">
-      <col style="width: 86%;">
-      {{ if $.Scratch.Get "hasPresentationTitles" }}
-      <col style="width: 30%;">
-      {{ end }}
+      <col style="width: 12%;">
+      <col style="width: 45%;">
+      <col style="width: 43%;">
     </colgroup>
     <thead>
       <tr>
         <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Description</th>
-        {{ if $.Scratch.Get "hasPresentationTitles" }}
-        <th class="schedule-description"></th>
-        {{ end }}
+        <th class="schedule-slot" colspan="2">Description</th>
       </tr>
     </thead>
     <tbody>
@@ -31,48 +20,41 @@
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
             {{ if ne .spotlight nil }}
-            <td class="schedule-slot">
-            {{else}}
-            <td class="schedule-slot">
-            {{ with .photo }}
-              <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
-              </span>
-            {{ end }}
-
-            {{end}}
-
-              {{ .name }}
-              <span class="speakers-company">{{ .company }}</span>
-            </td>
-            {{ if ne .spotlight nil }}
-              <td class="spotlight-description">
-              {{range .spotlight.titles}}
-                {{ .presenter }} on <br><i>{{ .title }}</i><br><a href="{{ .url }}"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="PDF Paper Download"/></a><br><br>
-              {{ end }}
+              <td class="schedule-slot" colspan="2">
+                <span style="font-size:1.1em; font-weight:bold;">{{ .name }}</span>
+                {{range .spotlight.titles}}
+                <p style="font-size:0.85em; margin-top:0.4em; margin-bottom:0.4em">{{ .title }}<br><i>{{ .authors }}</i></p>
+                {{ end }}
               </td>
             {{ else }}
-              {{ if $.Scratch.Get "hasPresentationTitles" }}
-                {{ if ne .presentation.video_url nil }}
-                <td class="schedule-description" style="text-align: center;"> {{ .presentation.title }}
-                  <br/>
-                  <a style="display: block; margin: 0 auto;" href="{{ .presentation.video_url }}">
-                  <img class="video-download-icon" src="/img/video-solid.svg" alt="Link to Presentation Recording on YouTube"/></a></td>
-                {{ else }}
-                <td class="schedule-description">{{ .presentation.title }}</td>
-                {{ end }}
+              <td class="schedule-slot">
+              {{ with .photo }}
+                <span class="speaker-photo">
+                  <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+                </span>
               {{ end }}
+                {{ .name }}
+                <span class="speakers-company">{{ .company }}</span>
+              </td>
+              <td class="schedule-description">
+                {{ $talktitle := or .presentation.title .presentation.description }}
+                {{ if and $talktitle (not (strings.Contains $talktitle "TODO")) }}{{ $talktitle }}{{ end }}
+                {{ if ne .presentation.video_url nil }}
+                  <br/><a style="display: block; margin: 0 auto;" href="{{ .presentation.video_url }}">
+                  <img class="video-download-icon" src="/img/video-solid.svg" alt="Link to Presentation Recording on YouTube"/></a>
+                {{ end }}
+              </td>
             {{ end }}
           </tr>
         {{ else if ne .headline nil}}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
-            <td {{ if $.Scratch.Get "hasPresentationTitles" }}colspan="2"{{ end }} class="schedule-headline">{{ .headline }}: {{ .name }}</td>
+            <td colspan="2" class="schedule-headline">{{ .headline }}: {{ .name }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">
             <td class="schedule-time">{{ .time }}</td>
-            <td {{ if $.Scratch.Get "hasPresentationTitles" }}colspan="2"{{ end }} class="schedule-slot">{{ .name }}</td>
+            <td colspan="2" class="schedule-slot">{{ .name }}</td>
           </tr>
         {{ end }}
       {{ end }}
