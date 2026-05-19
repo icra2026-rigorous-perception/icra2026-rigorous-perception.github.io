@@ -301,10 +301,10 @@ params:
             url: ""
             video:
 
-    - name: "Tentative Speaker"
-      photo: "/img/tbd.jpg"
-      bio: "Speaker to be announced."
-      company: ""
+    - name: "Juxi Leitner"
+      photo: "/img/leitner.jpg"
+      bio: "He is an Applied Science Manager at Amazon Robotics, co-founder of Lyro Robotics, and Adjunct Senior Lecturer at Monash University. For more than 20 years, he has worked at the intersection of robotics, AI, and computer vision, leading cross-disciplinary teams from research ideas to prototypes and deployed robotic systems. His work spans robotic manipulation, humanoid robotics, space robotics, and intelligent automation, with experience across academia, industry, and research institutions in Europe and Australia."
+      company: "Amazon Robotics & Lyro Robotics"
       presentation:
         title: ""
         description: ""
