@@ -70,7 +70,7 @@ params:
         text: ""
       presentation:
         title: ""
-        description: "TODO Talk Description"
+        description: "Rigorous perception for single- and multi-robot systems: are we there yet?"
         time: "9:00"
 
     - name: "Xiaolong Wang"
