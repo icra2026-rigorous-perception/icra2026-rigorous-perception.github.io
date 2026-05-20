@@ -3,8 +3,8 @@
 
 {{ range $slot := .schedule }}
 {{ if ne .presentation nil }}
-{{ if ne .spotlight nil }}
-{{ if ne .spotlight nil }}
+{{ if and (ne .spotlight nil) .papersList }}
+{{ if and (ne .spotlight nil) .papersList }}
 {{range .spotlight.titles}}
 <p style=margin-bottom:0.8em>
     <b>{{ .title }}</b><br>

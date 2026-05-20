@@ -108,6 +108,7 @@ params:
             video:
 
     - name: "Coffee Break and Poster Session"
+      papersList: true
       presentation:
         title: ""
         time: "10:15"
@@ -235,6 +236,7 @@ params:
             video:
 
     - name: "Poster Session"
+      papersList: true
       presentation:
         title: ""
         time: "15:15"
