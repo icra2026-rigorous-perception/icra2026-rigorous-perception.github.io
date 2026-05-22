@@ -176,7 +176,7 @@ params:
       company: "Norwegian University of Science and Technology"
       presentation:
         title: ""
-        description: "TODO Talk Description"
+        description: "The Role of FMCW Radar in Resilient Robot Perception"
         time: "11:00"
 
     - name: "Roundtable Discussion"
