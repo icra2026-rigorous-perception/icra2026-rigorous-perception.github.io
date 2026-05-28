@@ -94,7 +94,7 @@ params:
           - title: "Perception Debt: Monitoring Safety-Margin Consumption in Embodied Autonomy"
             authors: "Stavan Dholakia, Abhishek Singh, Aditya Gazta, Shivani Shukla"
             presenter: ""
-            url: ""
+            url: "/pdf/dholakia2026.pdf"
             video:
           - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
             authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
@@ -117,7 +117,7 @@ params:
           - title: "Perception Debt: Monitoring Safety-Margin Consumption in Embodied Autonomy"
             authors: "Stavan Dholakia, Abhishek Singh, Aditya Gazta, Shivani Shukla"
             presenter: ""
-            url: ""
+            url: "/pdf/dholakia2026.pdf"
             video:
           - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
             authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
@@ -290,7 +290,7 @@ params:
           - title: "OSMa-Bench++: Toward Open-Ended Benchmarking of Semantic Mapping for Manipulation with Prompt-Generated Synthetic Scenes"
             authors: "Regina Kurkova, Maxim Popov, Sergey Kolyubin"
             presenter: ""
-            url: ""
+            url: "/pdf/kurkova2026.pdf"
             video:
           - title: "IFG: Internet-Scale Guidance for Functional Grasping Generation"
             authors: "Muxin Liu, Mingxuan Li, Kenneth Shaw, Deepak Pathak"
