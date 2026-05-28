@@ -23,7 +23,12 @@
               <td class="schedule-slot" colspan="2">
                 <span style="font-size:1.1em; font-weight:bold;">{{ .name }}</span>
                 {{range .spotlight.titles}}
-                <p style="font-size:0.85em; margin-top:0.4em; margin-bottom:0.4em">{{ .title }}<br><i>{{ .authors }}</i></p>
+                <div style="display:flex; align-items:center; margin-top:0.4em; margin-bottom:0.4em;">
+                  <div style="flex-shrink:0; width:2em; text-align:center; font-size:0.85em;">
+                    {{ if .url }}<a href="{{ .url }}" target="_blank"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="Download PDF"/></a>{{ end }}
+                  </div>
+                  <p style="font-size:0.85em; margin:0;">{{ .title }}<br><i>{{ .authors }}</i></p>
+                </div>
                 {{ end }}
               </td>
             {{ else }}

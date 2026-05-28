@@ -6,9 +6,12 @@
 {{ if and (ne .spotlight nil) .papersList }}
 {{ if and (ne .spotlight nil) .papersList }}
 {{range .spotlight.titles}}
-<p style=margin-bottom:0.8em>
-    <b>{{ .title }}</b><br>
-    {{ .authors }}</p>
+<div style="display:flex; align-items:center; margin-bottom:0.8em;">
+    <div style="flex-shrink:0; width:2em; text-align:center; font-size:1.8em;">
+        {{ if .url }}<a href="{{ .url }}" target="_blank"><img class="pdf-download-icon" src="/img/file-pdf-solid.svg" alt="Download PDF"/></a>{{ end }}
+    </div>
+    <p style="margin:0;"><b>{{ .title }}</b><br>{{ .authors }}</p>
+</div>
 {{ end }}
 {{ end }}
 {{ end }}

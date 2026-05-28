@@ -99,12 +99,12 @@ params:
           - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
             authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
             presenter: ""
-            url: ""
+            url: "/pdf/yoo2026.pdf"
             video:
           - title: "COIN-BIEVR: 3D Intensity Mapping for Robust LiDAR-Inertial Odometry"
             authors: "Patrick Pfreundschuh, Cedric Le Gentil, Roland Siegwart, Cesar Cadena"
             presenter: ""
-            url: ""
+            url: "/pdf/pfreundschuh2026.pdf"
             video:
 
     - name: "Coffee Break and Poster Session"
@@ -122,12 +122,12 @@ params:
           - title: "One-Step Planner: Unified Observation and Decision-Making with Vision-Language Models"
             authors: "Youngjae Yoo, Jae-Woo Choi, DohyungKim, Byoung-Tak Zhang"
             presenter: ""
-            url: ""
+            url: "/pdf/yoo2026.pdf"
             video:
           - title: "COIN-BIEVR: 3D Intensity Mapping for Robust LiDAR-Inertial Odometry"
             authors: "Patrick Pfreundschuh, Cedric Le Gentil, Roland Siegwart, Cesar Cadena"
             presenter: ""
-            url: ""
+            url: "/pdf/pfreundschuh2026.pdf"
             video:
           - title: "In-context adaptation of place recognition through self-supervised learning from video"
             authors: "Kiavash Jamshidi, Hermann Blum, Gülhan Şikaroğlu"
@@ -137,37 +137,37 @@ params:
           - title: "Language-Based Swarm Perception: Decentralized Person Re-Identification via Natural Language Descriptions"
             authors: "Miquel Kegeleirs, Lorenzo Garattoni, Gianpiero Francesca, Mauro Birattari"
             presenter: ""
-            url: ""
+            url: "/pdf/kegeleirs2026.pdf"
             video:
           - title: "Extended Abstract: Adaptive LiDAR Inertial Odometry with an Ellipsoid Representation (EllipseLIO)"
             authors: "Rowan Border, Margarita Chli"
             presenter: ""
-            url: ""
+            url: "/pdf/border2026.pdf"
             video:
           - title: "Cross-Modal Benchmarking for Robotic Perception in Natural Environments"
             authors: "David Hall, Joshua Knights, Mark Cox, Peyman Moghadam"
             presenter: ""
-            url: ""
+            url: "/pdf/hall2026.pdf"
             video:
           - title: "SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry"
             authors: "Johannes A. Gaus, Daniel Haeufle, Woo-Jeong Baek"
             presenter: ""
-            url: ""
+            url: "/pdf/gaus2026.pdf"
             video:
           - title: "Visual Layer Selection Matters for Egocentric VLM Perception"
             authors: "Ruchen Liu, Yi Yang, Yiming Xu, Monika Sester, Bodo Rosenhahn"
             presenter: ""
-            url: ""
+            url: "/pdf/liu2026.pdf"
             video:
           - title: "Lensless Aerial Navigation in Dark"
             authors: "Deepak Singh, Hudson Kortus, Jahnavi Prudhivi, Vivek Reddy Kasireddy, Nitin J. Sanket"
             presenter: ""
-            url: ""
+            url: "/pdf/singh2026.pdf"
             video:
           - title: "Spatially Stratified Distillation for Heterogeneous Radar Place Recognition"
             authors: "Sagun Man Singh Shrestha, Abdelwahed Khamis, Saimunur Rahman, Peyman Moghadam"
             presenter: ""
-            url: ""
+            url: "/pdf/shrestha2026.pdf"
             video:
 
     - name: "Kostas Alexis"
@@ -222,17 +222,17 @@ params:
           - title: "GroundedPlanBench: Spatially Grounded Long-Horizon Task Planning"
             authors: "Sehun Jung, Hyunjee Song, Dong-Hee Kim, Reuben Tan, Jianfeng Gao, Yong Jae Lee, Donghyun Kim"
             presenter: ""
-            url: ""
+            url: "/pdf/jung2026b.pdf"
             video:
           - title: "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks"
             authors: "Davide Buoso, Andrea Protopapa, Stefano Di Carlo, Francesca Pistilli, Giuseppe Averta"
             presenter: ""
-            url: ""
+            url: "/pdf/buoso2026.pdf"
             video:
           - title: "Input-Aware Routing of Image-to-3D Models for Robotic Manipulation"
             authors: "Akash Anand, Aditya Agarwal, Leslie Pack Kaelbling"
             presenter: ""
-            url: ""
+            url: "/pdf/anand2026.pdf"
             video:
 
     - name: "Poster Session"
@@ -245,47 +245,47 @@ params:
           - title: "GroundedPlanBench: Spatially Grounded Long-Horizon Task Planning"
             authors: "Sehun Jung, Hyunjee Song, Dong-Hee Kim, Reuben Tan, Jianfeng Gao, Yong Jae Lee, Donghyun Kim"
             presenter: ""
-            url: ""
+            url: "/pdf/jung2026b.pdf"
             video:
           - title: "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks"
             authors: "Davide Buoso, Andrea Protopapa, Stefano Di Carlo, Francesca Pistilli, Giuseppe Averta"
             presenter: ""
-            url: ""
+            url: "/pdf/buoso2026.pdf"
             video:
           - title: "Input-Aware Routing of Image-to-3D Models for Robotic Manipulation"
             authors: "Akash Anand, Aditya Agarwal, Leslie Pack Kaelbling"
             presenter: ""
-            url: ""
+            url: "/pdf/anand2026.pdf"
             video:
           - title: "Robust Pose Estimation through Failure Explanation and Mitigation"
             authors: "Loris Schneider, Yitian Shi, Rosa Wolf, Carolin Brenner, Rudolph Triebel, Rania Rayyes"
             presenter: ""
-            url: ""
+            url: "/pdf/schneider2026.pdf"
             video:
           - title: "Core-Agnostic Compliance Perception for Rigid–Deformable Coupled Objects using Vision-Based Tactile Sensing"
             authors: "CanZhao, Yanghui Ding, Haonan Zhao, Yebao Hu, Daolin Ma"
             presenter: ""
-            url: ""
+            url: "/pdf/zhao2026.pdf"
             video:
           - title: "U-VINDO: Underwater Visual-Inertial Odometry Enhanced with Robot Dynamics Predictions Powered by Port-Hamiltonian Neural ODE Networks"
             authors: "Yazan Maalla, Sergey Kolyubin, Zein Alabedeen Barhoum"
             presenter: ""
-            url: ""
+            url: "/pdf/maalla2026.pdf"
             video:
           - title: "Training-Free 6D Robot Pose Estimation with Neural Memory Objects"
             authors: "Sebastian Jung, Leonard Klüpfel, Tjark Darius, Rudolph Triebel, Maximilian Durner"
             presenter: ""
-            url: ""
+            url: "/pdf/jung2026a.pdf"
             video:
           - title: "Task-Relevant Depth Quality Metrics for Suction Grasping"
             authors: "Shivansh Inamdar"
             presenter: ""
-            url: ""
+            url: "/pdf/inamdar2026.pdf"
             video:
           - title: "Compositional Neural Field Movement Primitives"
             authors: "Ahmet Ercan Tekden, Yasemin Bekiroglu"
             presenter: ""
-            url: ""
+            url: "/pdf/tekden2026.pdf"
             video:
           - title: "OSMa-Bench++: Toward Open-Ended Benchmarking of Semantic Mapping for Manipulation with Prompt-Generated Synthetic Scenes"
             authors: "Regina Kurkova, Maxim Popov, Sergey Kolyubin"
@@ -300,7 +300,7 @@ params:
           - title: "EVII: Measuring Early Visual Integration in VLM Reasoning"
             authors: "Hakan Muluk, Ozgur S. Oguz"
             presenter: ""
-            url: ""
+            url: "/pdf/muluk2026.pdf"
             video:
 
     - name: "Juxi Leitner"
