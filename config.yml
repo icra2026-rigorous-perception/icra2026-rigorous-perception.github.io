@@ -73,10 +73,10 @@ params:
         description: "Rigorous perception for single- and multi-robot systems: are we there yet?"
         time: "9:00"
 
-    - name: "Xiaolong Wang"
-      photo: "/img/wang.jpg"
-      bio: "He is an Assistant Professor in the ECE department at the University of California, San Diego, and a Visiting Professor at NVIDIA Research. His research focuses on the intersection between computer vision and robotics. His specific interest lies in representation learning with videos and physical robotic interaction data. These comprehensive representations are utilized to facilitate the learning of human-like robot skills, with the goal of generalizing the robot to interact effectively with a wide range of objects and environments in the real physical world."
-      company: "UC San Diego"
+    - name: "Abhinav Valada"
+      photo: "/img/valada.jpg"
+      bio: "He is a Full Professor at the University of Freiburg, where he directs the Robot Learning Lab. His research focuses on robot learning, perception, state estimation, and decision making for reliable robot operation in complex open-world environments. His work has received several awards, including the IEEE RAS Early Career Award in Robotics and Automation and the IROS Toshio Fukuda Young Professional Award."
+      company: "University of Freiburg"
       link:
         href: ""
         text: ""
