@@ -309,7 +309,7 @@ params:
       company: "Amazon Robotics & Monash University"
       presentation:
         title: ""
-        description: ""
+        description: "Robustness from multiple angles - academia, startup, industry"
         time: "16:00"
 
     - name: "Roundtable Discussion"
