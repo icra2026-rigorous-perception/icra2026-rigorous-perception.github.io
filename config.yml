@@ -82,7 +82,7 @@ params:
         text: ""
       presentation:
         title: ""
-        description: "TODO Talk Description"
+        description: "Rigorous Robot Perception in the Open World: From Recognition to Introspection and Adaptation"
         time: "9:30"
 
     - name: "Spotlight Talks"
